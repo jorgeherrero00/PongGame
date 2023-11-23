@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego de Pong en JavaScript</title>
+  <style>
+    svg {
+      border: 1px solid black;
+      display: block;
+      margin: 0 auto;
+      background-color: black;
+    }
+    svg rect{
+        fill: white;
+    }
+    svg circle{
+        fill: white;
+    }
+  </style>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <svg id="juegoSvg" width="800" height="400">
+    <circle id="circulo" cx="11" cy="50" r="10" stroke="black" stroke-width="2" fill="red" />
+    <rect id="rectangulo" x="0" y="150  " width="10" height="100" fill="blue" stroke="black" />
+    <rect id="rectangulo2" x="790" y="150  " width="10" height="100" fill="blue" stroke="black" />
+</svg>
+</body>
+</html>
